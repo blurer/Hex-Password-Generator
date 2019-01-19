@@ -4,9 +4,7 @@ print('')
 print('HEX PASSWORD GENERATOR')
 print('')
 
-#import csv
 import random
-#import string
 
 chars = 'abcdefABCDEF1234567890'
 

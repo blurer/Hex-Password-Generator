@@ -1,10 +1,18 @@
-Hex password generator [a-f,A-F,0-9]
+# Hex password generator [a-f,A-F,0-9]
+I made this for fun while learning Python. If my 85 year old grandparents can use a password safe with random passwords, you can too.
 
-# Installation
-## Requirements
+<rant>
+* Use random passwords.
+* Use a damn password safe, preferrably one with cloud sync - https://1password.com/ or https://bitwarden.com/
+* Check your email addresses against haveibeenpwned - https://haveibeenpwned.com/
+* Use strong passwords with lots of characters. Check the stength at sites like - https://howsecureismypassword.net/
+</rant>
+
+## Installation
+### Requirements
 - Python 3
 
-## Usage
+### Usage
 ```
 git clone link
 cd to directory
@@ -15,35 +23,21 @@ You'll be asked:
 - How many characters do you want the password to be?
 - How many passwords do you want?
 
-# Example
+## Example
 ```
-bl@apollo:~/Hex-Password-Generator$ ./pwgen.py
+# root @ devbox in ~/Hex-Password-Generator on git:master x [5:31:38] 
+$ ./pwgen.py 
 
 HEX PASSWORD GENERATOR
 
-HOW LONG: 128
-HOW MANY: 1
-F79Dd581B4AAFEc56d4EB19adFbAaac1b7EF4ab2A0f862AAEdd0bCee87237E73eDf1Bf04fDdE6a0ABcca5671Ab0fdbFBC5FDaEfA0E62e6dea3627EBC73936000
-bl@apollo:~/Hex-Password-Generator$ ./pwgen.py
-
-HEX PASSWORD GENERATOR
-
-HOW LONG: 8
-HOW MANY: 16
-Bc0C64EA
-9d9C17a6
-ABD90B20
-052ac56F
-515EEDa7
-218dBa5C
-e9c7FFdC
-2e8dAaAa
-143A87Df
-DCbBd1ED
-28691AcA
-6D660137
-6fa121A4
-AAe1dFD0
-0A337C70
-209c40ad
+HOW LONG: 24
+HOW MANY: 8
+16Fd5ed82BBF5ce6F0caBFEd
+43C2BE2D2d2b5eCe78d7aCC9
+c4C8005F66DAcBDbD7fB7FC6
+dC9CD885AE7ed7a578b1602B
+cB4eaC8da3F4C1DCb8fD33F2
+3F0A24FD1a2f40E021CcAdaB
+2298D7F6EACED06CDDf654aB
+A6cFFffa496BBCCCBCbF9cbb
 ```

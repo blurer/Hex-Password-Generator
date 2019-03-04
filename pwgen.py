@@ -1,12 +1,10 @@
 #!/usr/bin/python3
+import string
+import random
 
 print('')
 print('HEX PASSWORD GENERATOR')
 print('')
-
-import random
-
-chars = 'abcdefABCDEF1234567890'
 
 length = input('HOW LONG: ')
 length = int(length)
@@ -18,5 +16,5 @@ qty = int(qty)
 for y in range(qty):
     password = ''
     for c in range(length):
-        password += random.choice(chars)
+        password += random.choice(string.hexdigits)
     print(password)

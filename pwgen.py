@@ -12,9 +12,11 @@ length = int(length)
 qty = input('HOW MANY: ')
 qty = int(qty)
 
-
+print('')
 for y in range(qty):
     password = ''
     for c in range(length):
         password += random.choice(string.hexdigits)
     print(password)
+print('')
+

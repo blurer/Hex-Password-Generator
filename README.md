@@ -41,3 +41,10 @@ cB4eaC8da3F4C1DCb8fD33F2
 2298D7F6EACED06CDDf654aB
 A6cFFffa496BBCCCBCbF9cbb
 ```
+
+# PseudorandomPWs
+twitter.com/PseudorandomPWs
+
+# What this is...
+
+This is a quick and dirty python3 script to automatically tweet a random password every x seconds. You will need a twitter api key and installing tweepy (pip3 install tweepy --user) priot to use. You’ll need to enter in the api information within the script, specify the length and quantity of password per tweet, and finally how often they are to be tweeted.
